@@ -1,11 +1,11 @@
 
 version: '3'
 services:
-  wanglab-jupyter-template:
+  wanglab-jupyter-familyfragmentation:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: wanglab-jupyter-template
+    container_name: wanglab-jupyter-familyfragmentation
     volumes:
       - .:/home/jovyan:rw
     ports:
